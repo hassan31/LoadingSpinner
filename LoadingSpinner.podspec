@@ -8,17 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoadingSpinner'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A customizable loading spinner for iOS applications.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  LoadingSpinner is a lightweight and customizable loading spinner library for iOS applications. It provides several styles and animations to suit different design needs. Easy to integrate and customize, it enhances the user experience with visually appealing loading indicators.
                        DESC
 
   s.homepage         = 'https://github.com/hassan31/LoadingSpinner'
@@ -29,6 +23,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '15.0'
+  s.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5'] # Add all Swift versions you want to support
+  s.swift_version = '5.5'
 
   s.source_files = 'LoadingSpinner/Classes/**/*'
   
